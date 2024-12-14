@@ -15,7 +15,7 @@ end
 --#endregion
 
 --#region HealValue
-local GCD = UpdateLastGCD()
+local GCD = UpdateLastGCD() --хз откуда
 local HMod = 1.10
 local HS = GetSpellHValue(20473) * HMod * 1.90 *
     ((GetBuffRemainTime("player", "Свет восходящего солнца", 1) > 0) and 3 or 1)
